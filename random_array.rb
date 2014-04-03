@@ -18,7 +18,7 @@ class RandomArray
     sum = 0
     @array.flatten.each do |el|
       if el < 0
-        sum = sum + el
+        sum += el
         puts el
       end
     end
